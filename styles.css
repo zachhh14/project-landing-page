@@ -18,7 +18,6 @@ header {
   position: fixed;
   width: 100vw;
   overflow: hidden;
-  /* position: sticky; */
 }
 
 ul {
@@ -43,7 +42,6 @@ li {
 }
 
 .content {
-  /* background-color: #1f2937; */
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -136,37 +134,45 @@ button {
   font-size: 24px;
 }
 
-.page-four{
+.page-four {
   display: flex;
   justify-content: center;
 }
 
-.action-box{
+.action-box {
   align-self: center;
   background-color: #3882f6;
   margin: 25px;
   display: flex;
   justify-content: space-between;
   color: white;
-  font-family: 'roboto',sans-serif;
+  font-family: "roboto", sans-serif;
   padding: 50px 100px;
   border-radius: 15px;
   width: 60%;
 }
 
-.below{
+.below {
   border: 2px solid white;
 }
 
-.action-title{
+.action-title {
   font-weight: bold;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 25px;
 }
 
 @media screen and (max-width: 1470px) {
   .main {
     padding: 0 10%;
   }
-  .page-three{
+  .page-three {
     padding: 10% 10%;
   }
 }
